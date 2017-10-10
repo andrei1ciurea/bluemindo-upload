@@ -1,0 +1,75 @@
+Bluemindo 1.0RC1 (25 February 2016)
+
+           * Refactorized the whole source code
+            * Switched from Python 2.x to Python 3.x
+            * Switched from GSTreamer 0.10.x to GSTreamer 1.x
+            * Switched from GTK 2.x to GTK 3.x
+           * Only one view: Album discs, searchable and filterable
+           * Only one playback: Gapless with ReplayGain support (automatic & wisely switching between Album & Track modes)
+           * Full support for playlists/automatic playlists/saved playlists
+           * Added full support for MPRIS/MediaPlayer2 (dbus protocol to control audioplayers)
+           * Added a better support of Lyrics and Album covers downloading
+
+
+Bluemindo 0.3 (16 August 2009)
+
+           * Refactorized the whole source code
+           * Introduced gapless playback
+           * Ability to start Bluemindo minimized
+           * Improved the VolumeManager button
+           * Updated Last.fm and Amazon APIs
+           * Explorer modules completely rewritten:
+            * Introduced Albums view
+            * Introduced Playlists (automatic and manual)
+            * Introduced Webradios and Shoutcast support
+            * Ability to change view during Bluemindo execution!
+           * Listening statistics
+           * New TrayIcon module
+           * Sort in playlist/views is now case-insensitive
+           * Plugins:
+            * Ability to disable or enable plugins
+            * Audioscrobbler can now use Last.fm, Libre.fm or any other servers
+            * Jabber is now hidden thanks to privacy lists
+            * Gajim has been removed
+           * Added chinese, italian, swedish and brazilian i18n
+           * Added a debian/ folder for packaging
+           * A lot of bug fixes (mainly related to unespace, unicode, playlist,
+             sockets…)
+
+
+Bluemindo 0.2.1 (21 June 2008)
+
+           * Added Slovak translation
+           * Added a Makefile, .desktop...
+           * Added a plugins management system
+           * Added a plugin to change your status message with your tune (works with Gajim only)
+           * Show the current playing song in bold (if in playlist)
+           * Added three new commands: --volume, --curent-cover and --current-lyrics
+           * Bug fixes related to:
+            * &, < and > in cells
+            * newer GNOME API for media keys
+            * artist fetching
+            * exit if a module can't load
+            * unicode related
+            * previous, next, stop and play buttons
+            * typo 'powerfull'
+            * i18n
+            * desktop notifications
+            * album cover popup
+            * columns ordering
+
+
+Bluemindo 0.2 (27 May 2008)
+
+           * 4 view mode:
+            * Lightweight
+            * Basic
+            * Normal
+            * Full
+           * Ability to download an artist picture
+           * Ability to send your tune via PEP
+
+
+Bluemindo 0.1 (25 December 2007)
+
+           * Initial release.

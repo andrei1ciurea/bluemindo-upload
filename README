@@ -1,0 +1,34 @@
+Bluemindo 1.0RC1
+Ergonomic and modern music player designed for audiophiles.
+
+Project site:
+ * http://bluemindo.codingteam.net
+
+SVN Browse:
+ * http://svn.codingteam.net/bluemindo
+ * http://codingteam.net/project/bluemindo/browse
+
+ ************
+   CREDITS
+ ************
+
+Author informations are in the ~/AUTHORS.
+For the list of contributors, see ~/THANKS.
+
+ ************
+   TRANSLATION
+ ************
+ 
+ → Create the POT model:
+    find . -name '*.py' | grep -v '.svn/' > file_list.txt && find . -name '*.ui' | grep -v '.svn/' >> file_list.txt
+    xgettext -f file_list.txt --from-code=utf-8 --keyword=_ -o locale/bluemindo.pot
+    rm file_list.txt
+
+ → Create a PO file for your language:
+    msginit -i locale/bluemindo.pot -o locale/$LANG/LC_MESSAGES/bluemindo.po --locale=$LL_CC
+
+ → Update a PO file for your language:
+    msgmerge -U locale/$LANG/LC_MESSAGES/bluemindo.po locale/bluemindo.pot
+
+ → Compile a MO file:
+    msgfmt locale/$LANG/LC_MESSAGES/bluemindo.po -o locale/$LANG/LC_MESSAGES/bluemindo.mo -v

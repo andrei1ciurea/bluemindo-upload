@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated with glade 3.18.3 -->
+<interface>
+  <requires lib="gtk+" version="3.12"/>
+  <object class="GtkImage" id="image1">
+    <property name="visible">True</property>
+    <property name="can_focus">False</property>
+    <property name="icon_name">media-playback-start-symbolic</property>
+  </object>
+  <object class="GtkInfoBar" id="infobar">
+    <property name="visible">True</property>
+    <property name="app_paintable">True</property>
+    <property name="can_focus">False</property>
+    <property name="baseline_position">bottom</property>
+    <child internal-child="action_area">
+      <object class="GtkButtonBox" id="infobar-action_area1">
+        <property name="can_focus">False</property>
+        <property name="spacing">6</property>
+        <property name="layout_style">end</property>
+        <child>
+          <object class="GtkButton" id="button_play">
+            <property name="label" translatable="no"></property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <property name="image">image1</property>
+            <property name="always_show_image">True</property>
+          </object>
+          <packing>
+            <property name="expand">True</property>
+            <property name="fill">True</property>
+            <property name="position">0</property>
+          </packing>
+        </child>
+      </object>
+      <packing>
+        <property name="expand">True</property>
+        <property name="fill">True</property>
+        <property name="position">0</property>
+      </packing>
+    </child>
+    <child internal-child="content_area">
+      <object class="GtkBox" id="infobar-content_area1">
+        <property name="can_focus">False</property>
+        <property name="spacing">16</property>
+        <child>
+          <object class="GtkLabel" id="label">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="no"></property>
+            <property name="xalign">0</property>
+          </object>
+          <packing>
+            <property name="expand">True</property>
+            <property name="fill">True</property>
+            <property name="position">0</property>
+          </packing>
+        </child>
+      </object>
+      <packing>
+        <property name="expand">True</property>
+        <property name="fill">True</property>
+        <property name="position">0</property>
+      </packing>
+    </child>
+  </object>
+</interface>

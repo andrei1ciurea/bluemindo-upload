@@ -1,0 +1,18 @@
+Depends:
+ * python              http://www.python.org
+ * python-gtk3         http://www.pygtk.org    
+ * python-gst          http://gstreamer.freedesktop.org/modules/gst-python.html
+ * python3-taglib      https://pypi.python.org/pypi/pytaglib
+ * python3-bs4         http://www.crummy.com/software/BeautifulSoup/bs4/doc/
+ * python3-dbus        http://www.freedesktop.org/wiki/Software/DBusBindings
+
+Once you installed needed dependencies, you can install Bluemindo,
+by launching (as root):
+  # make install
+
+If you want to uninstall Bluemindo, just launch (as root):
+  # make uninstall
+
+As it's a Python developped software, you don't have to compile it
+for using it. Just launch (as normal user):
+  $ ./launch.sh

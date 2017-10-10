@@ -1,0 +1,174 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-02-17 16:10+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/modules/explorer/__init__.py:79
+msgid "Open your music directory"
+msgstr ""
+
+#: src/modules/explorer/__init__.py:81 src/modules/explorer/albumsview.py:260
+msgid "Select"
+msgstr ""
+
+#: src/modules/explorer/__init__.py:118
+msgid "Reloading music database."
+msgstr ""
+
+#: src/modules/explorer/__init__.py:131
+msgid "Starting… Prepares to search for new files."
+msgstr ""
+
+#: src/modules/explorer/musicdb.py:53
+#, python-format
+msgid "Found %d songs."
+msgstr ""
+
+#: src/modules/explorer/musicdb.py:101
+#, python-format
+msgid "Added %d songs."
+msgstr ""
+
+#: src/modules/explorer/musicdb.py:116
+#, python-format
+msgid "Metadata retrieved for %d songs. Updating database…"
+msgstr ""
+
+#: src/modules/explorer/filter.py:48
+msgid "Filter the results:"
+msgstr ""
+
+#: src/modules/explorer/filter.py:120
+msgid "All genres"
+msgstr ""
+
+#: src/modules/explorer/filter.py:130
+msgid "All years"
+msgstr ""
+
+#: src/modules/explorer/search.py:147
+msgid "Artist"
+msgstr ""
+
+#: src/modules/explorer/search.py:148
+#, python-format
+msgid "%s albums in collection."
+msgstr ""
+
+#: src/modules/explorer/search.py:180
+#, python-format
+msgid "%s songs"
+msgstr ""
+
+#: src/modules/explorer/search.py:181
+#, python-format
+msgid "Total playing time: %s."
+msgstr ""
+
+#: src/modules/explorer/search.py:207
+msgid "Song"
+msgstr ""
+
+#: src/modules/explorer/albumsview.py:259
+msgid "Change the cover picture for this album"
+msgstr ""
+
+#: src/modules/playlist/__init__.py:135
+msgid "Do you also want to remove the playlist?"
+msgstr ""
+
+#: src/modules/playlist/__init__.py:137
+msgid "Delete"
+msgstr ""
+
+#: src/modules/playlist/__init__.py:155
+msgid "Current"
+msgstr ""
+
+#: src/modules/playlist/__init__.py:156
+msgid "Top 50 songs"
+msgstr ""
+
+#: src/modules/playlist/__init__.py:157
+msgid "Top 10 albums"
+msgstr ""
+
+#: src/modules/playlist/__init__.py:214
+msgid "Save"
+msgstr ""
+
+#: src/gui/mainwindow.py:134
+msgid "Ergonomic and modern music player designed for audiophiles."
+msgstr ""
+
+#: src/bluemindo.py:58
+msgid ""
+"Bluemindo  Copyright (C) 2007-2016  Erwan Briand\n"
+"This program comes with ABSOLUTELY NO WARRANTY.\n"
+"This is free software, and you are welcome to\n"
+"redistribute it under certain conditions.\n"
+"\n"
+"Usage: bluemindo[.py] [options]\n"
+"\n"
+"Available options:\n"
+"--current\t\tShow the current playing song artist, title and album\n"
+"--current-cover\t\tShow the path to the cover of the current playing song\n"
+"--current-lyrics\tShow the lyrics for the current playing song\n"
+"\n"
+"--playpause, --play, --pause\tPlay or pause a song\n"
+"--stop\t\t\tStop a song\n"
+"--previous\t\tJump to the previous song in playlist\n"
+"--next\t\t\tJump to the next song in playlist\n"
+"\n"
+"--quit, --plunge\tQuit Bluemindo"
+msgstr ""
+
+#: data/glade/mainwindow.ui:40
+msgid "Playlist"
+msgstr ""
+
+#: data/glade/mainwindow.ui:57
+msgid "Repeat mode"
+msgstr ""
+
+#: data/glade/mainwindow.ui:71
+msgid "Shuffle mode"
+msgstr ""
+
+#: data/glade/mainwindow.ui:149
+msgid "Save playlist"
+msgstr ""
+
+#: data/glade/mainwindow.ui:162
+msgid "Clean playlist"
+msgstr ""
+
+#: data/glade/mainwindow.ui:186
+msgid "Show lyrics"
+msgstr ""
+
+#: data/glade/mainwindow.ui:248
+msgid "Add filters"
+msgstr ""
+
+#: data/glade/albumview.ui:93
+msgid "Play album"
+msgstr ""
+
+#: data/glade/albumview.ui:115
+msgid "Queue album"
+msgstr ""
